@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.4;
+  background: #ddd;
+}
+
+a {
+  text-decoration: none;
+}
+
+.l-heading {
+  font-size: 1.4rem;
+  padding: 4rem 0.5rem;
+}
+
+#navbar {
+  display: flex;
+  background: #ddd;
+  height: 3rem;
+}
+
+#navbar ul {
+  display: flex;
+  margin: 1rem;
+  list-style: none;
+  padding-left: 14rem;
+}
+
+#navbar ul li {
+  padding: 0 1rem;
+}
+
+
+
+#navbar ul li a:hover {
+  color: orange;
+}
+
+#navbar ul li a {
+  color: grey;
+}
+
+#navbar .first-text {
+  margin: 1rem;
+  padding-left: 2rem;
+}
+
+#navbar .first-text a {
+  color: orange;
+}
+
+#navbar .first-text:hover {
+  text-decoration: underline;
+}
+
+#navbar-2 {
+  display: flex;
+  background: #fff;
+}
+
+.logo {
+  margin: 1rem;
+  padding-left: 1rem;
+}
+
+#navbar-2 ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+#navbar-2 ul li {
+  padding: 0 2rem;
+}
+
+#navbar-2 input {
+  padding: 0.2rem 0.4rem;
+  border-radius: 5px;
+  border: #333 solid 1px;
+  width: 20rem;
+  height: 1.5rem;
+}
+
+#navbar-2 .btn {
+  background: orange;
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
+  color: #fff;
+} 
+
+#navbar-2 .btn:hover {
+  background: rgb(255, 115, 0);
+}
+
+#navbar-2 ul li select {
+  border: none;
+}
+
+#navbar-2 ul li select:hover {
+  color: orange;
+}
+
+#navbar-2 ul li a {
+  color: black;
+}
+
+.fa-solid {
+  color: #fff;
+  background: orange;
+  padding: 0.2rem;
+  border-radius: 50px;
+}

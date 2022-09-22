@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    color: white;
+    padding: 0;
+}
+
+.header{
+    height: 70px;
+    width:100%;
+   align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.wrapper{
+    height: 100%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    background-color: none;
+    
+}
+
+.navigation-link{
+    height: 100%;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.button{
+    width: 90px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    color: black;
+}
+
+
+.nav{
+    margin: 0 10PX;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-image: url(./Asset/html-images/image-stand-out-removebg-preview.png); */
+    background-color: rgb(2, 36, 49);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: relative;
+    overflow: none;
+
+}
+
+.text{
+    margin: 0px;
+    font-family: jokerman;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 40px;
+}
+
+.image{
+    position: absolute;
+    width: 600px;
+    height: 450px;
+    bottom: -20px;
+    right: 28%;
+}
+
+.arrow{
+    z-index: 100;
+    position: absolute;
+    right: 50%;
+    bottom: 45%;
+    width: 20px;
+    height: 100px;
+}

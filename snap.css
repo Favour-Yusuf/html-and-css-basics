@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+
+}
+
+.header{
+    
+    width: 99%;
+    height: 90px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.firstbox{
+    
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secondbox{
+    width: 40%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    padding-right: 250px;
+}
+
+.js{
+    padding-left: 380px;
+}
+
+.first-button{
+    margin-right: 10px;
+    border-radius: 8px;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    color: black;
+}
+
+.holder{
+    width: 99%;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin: 10px;
+}
+
+.text{
+    width: 45%;
+    height: 450px;
+    
+}
+
+.pic-box{
+    width: 45%;
+    height: 450px;
+    padding-right: 100px;
+    
+
+    
+}
+
+.boldtext{
+    width: 80%;
+    height: 120px;
+    
+    margin: 20px;
+}
+
+.light-text{
+    width: 80%;
+    height: 100px;
+    margin: 29px;
+}
+
+.last-button{
+    background-color: black;
+    color: white;
+    width: 15%;
+    height: 30px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+h1{
+    font-size: 80px;
+    font-family: poppins;
+    line-height: 60px;
+}
+
+.txt{
+    font-family: poppins;
+    font-size: 20px;
+}
+
+p{
+    font-family: poppins;
+}
+
+.supports{
+    
+    height: 40px;
+    width: 80%;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image{
+    object-fit: contain;
+    height: 500px;
+    width: 500px;
+}

@@ -1,0 +1,74 @@
+
+
+header{
+    font-family: lorem;
+    font-size: 70px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container{
+    width: 85%;
+    height: 65vh;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    
+
+    
+}
+
+.box{
+    width: 350px;
+    height: 200px;
+    background-color: red;
+    
+    
+    
+}
+
+
+.green{
+    background-color: green;
+
+}
+
+.white{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.line{
+    text-decoration-line: underline;
+}
+
+p{
+    margin-left: 30px;
+}
+ .head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+ img{
+    height: 100px;
+    width: 100px;
+ }
+
+ body{
+    background-color: silver;
+ }

@@ -1,0 +1,85 @@
+.container{
+    background-color: darkgreen;
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    color: white;
+}
+
+.prop{
+    width:700px ;
+    height:50px ;
+    margin-right:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstbox{
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.secondbox{
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thirdbox{
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fourthbox{
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.fifthbox{
+    color: white;
+    width: 100px;
+    height: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sixthbox{
+    color: white;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
